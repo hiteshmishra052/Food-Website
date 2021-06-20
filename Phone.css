@@ -1,0 +1,96 @@
+/* Navigation menu  */
+#navbar{
+ flex-direction: column;
+ font-size: 14px;
+}
+#logo img{
+    height: 44px;
+}
+#logo{
+    margin: 5px 6px;
+    margin-bottom: 1px;
+/* Home Section */
+}
+#navbar ul li a {
+    padding: 3px 12px;
+    font-size: 16px;
+}
+    #home{
+ height: 280px; 
+ margin: 0;
+ padding: 0;
+}
+
+#home p{
+     font-size: 10px;
+     margin: auto 30px;
+     
+ }
+ .btn{
+    padding: 6px 6px;
+   font-size: 0.8rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+ 
+.btn :hover{
+    color: black;
+    background-color: white;
+}
+
+/* Services section  */
+#services-container{
+    margin-top: 444px;
+}
+
+#services{
+flex-direction: column;
+    margin: -2px 17px;
+}
+
+/* #services .box{
+    margin: 5px -16px;
+} */
+
+/* Client section  */
+#client{
+flex-wrap: wrap;
+}
+#client img{
+height:62px;
+/* /width:22px ; */
+}
+.client-item{
+    padding: 14px;
+}
+
+/* Contact us section  */
+#contact-box label{
+    
+    font-size: 18px;
+    }
+
+    #contact-box input,#contact-box textarea{
+        width: 100%;
+        padding: 6px;
+        border-radius: 9px;
+        font-size: 12px;
+        }
+
+#contact-box form{
+    width: 80%;
+    }
+
+/* Utility classes  */
+.h-primary{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.8rem;
+    padding: 12px;
+    margin-top:50px;
+}
+/* .h-primary center{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2.8rem;
+    padding: 12px;
+    margin-top:-22px;
+} */
